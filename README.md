@@ -3,13 +3,17 @@ Sentiment analysis tool for estimating the intensity of four emotions from text.
 
 Validated on self-reported affect from dream reports (submitted for publication).
 
-This repository contains a Python script to analyze dream reports (or any text of linguistic context) for emotional intensities using pre-trained transformers models (cardiffnlp/twitter-roberta-base-2022-154m). The script processes the input text and computes the intensity of emotions: joy, fear, anger, and sadness.
+This repository contains a Python script to analyze dream reports (or any text of linguistic context) for emotional intensities using pre-trained transformers models (cardiffnlp/twitter-roberta-base-2022-154m). The script processes the input text and computes the intensity of emotions (relative values between 0-1): joy, fear, anger, and sadness.
 
 Fine-tuning data come from Mohammad et al., (2018) [SemEval-2018 Task 1: Affect in Tweets](https://aclanthology.org/S18-1001/). We thank the authors for making these data openly available.
 
 Validation metrics and the UI spaces for testing are available here: [joy](https://huggingface.co/garrettbaber/twitter-roberta-base-joy-intensity), [fear](https://huggingface.co/garrettbaber/twitter-roberta-base-fear-intensity), [anger](https://huggingface.co/garrettbaber/twitter-roberta-base-anger-intensity), [sadness](https://huggingface.co/garrettbaber/twitter-roberta-base-sadness-intensity)
 
 ## Getting Started
+
+### Formatting your CSV file
+
+Prepare your CSV by naming the column containing text (e.g., dream reports) as "text" in all lowercase. 
 
 ### Prerequisites
 
@@ -25,6 +29,8 @@ pip install transformers pandas torch
 ```
 
 ### Body of the Code
+
+#### Ensure you modify the read-in file and write/save paths
 
 ```bash
 import pandas as pd
