@@ -1,5 +1,5 @@
-# Continuous-RoBERTa
-Sentiment analysis tool for estimating the intensity of four emotions from text. 
+# Continuous-RoBERTa  😄  😨  😡  😞
+Sentiment analysis tools for estimating the intensity of four emotions from text. 
 
 Validated on self-reported affect from dream reports (submitted for publication).
 
@@ -7,7 +7,7 @@ This repository contains a Python script to analyze dream reports (or any text o
 
 Fine-tuning data come from Mohammad et al., (2018) [SemEval-2018 Task 1: Affect in Tweets](https://aclanthology.org/S18-1001/). We thank the authors for making these data openly available.
 
-Validation metrics and the UI spaces for testing are available here: [joy](https://huggingface.co/garrettbaber/twitter-roberta-base-joy-intensity), [fear](https://huggingface.co/garrettbaber/twitter-roberta-base-fear-intensity), [anger](https://huggingface.co/garrettbaber/twitter-roberta-base-anger-intensity), [sadness](https://huggingface.co/garrettbaber/twitter-roberta-base-sadness-intensity)
+Validation metrics and the UI spaces for testing are available on huggingface 🤗 here: [joy](https://huggingface.co/garrettbaber/twitter-roberta-base-joy-intensity), [fear](https://huggingface.co/garrettbaber/twitter-roberta-base-fear-intensity), [anger](https://huggingface.co/garrettbaber/twitter-roberta-base-anger-intensity), [sadness](https://huggingface.co/garrettbaber/twitter-roberta-base-sadness-intensity)
 
 ## Getting Started
 
