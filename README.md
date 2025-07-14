@@ -1,7 +1,7 @@
 # Continuous-RoBERTa  😄  😨  😡  😞
 Sentiment analysis tools for estimating the intensity of four emotions from text. 
 
-Validated on self-reported affect from dream reports. See article from [SLEEP](https://doi.org/10.1093/sleep/zsae210)
+Validated on self-reported affect from dream reports. See article from [SLEEP](https://doi.org/10.1093/sleep/zsae210).
 
 This repository contains a Python script to analyze dream reports (or any text of linguistic context) for emotional intensities using pre-trained transformers models (cardiffnlp/twitter-roberta-base-2022-154m). The script processes the input text and computes the intensity of emotions (relative values between 0-1): joy, fear, anger, and sadness.
 
